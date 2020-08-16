@@ -24,7 +24,6 @@ jwt = JWT(app, authenticate, identify) # /auth -- new endpoint created by JWT
 
 api.add_resource(Item, '/item/<string:name>')
 api.add_resource(Itemlist, '/items')
-
 api.add_resource(Store, '/store/<string:name>')
 api.add_resource(StoreList, '/stores')
 
